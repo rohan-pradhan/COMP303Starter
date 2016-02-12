@@ -23,5 +23,16 @@ public final class Driver
 		{
 			System.out.println(item.getName());
 		}
+		
+	Inventory WholeFoods = new Inventory("WholeFoods"); 
+	WholeFoods.stock(ITEM_BUTTER, 30);
+	WholeFoods.stock(ITEM_JAM, 23); 
+	WholeFoods.stock(ITEM_CEREAL, 10); 
+	
+	System.out.println(WholeFoods.totalValue());
+	
+	
+	
+		
 	}
 }
